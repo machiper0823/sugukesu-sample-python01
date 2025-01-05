@@ -1,7 +1,6 @@
 # sugukesu-sample-python01
 
-
-## 動かし方
+## 初回のpython環境構築
 1. pythonの仮想環境をvenvで作成  
     ```shell
     python -m venv .venv
@@ -27,6 +26,13 @@
     python sample.py
     ```
 
+## さくらのVPS側の更新手順
+1. 下記のgitコマンドでソースを更新。  
+    ```shell
+    git fetch origin
+    git pull origin main(恐らく不要だが、別のブランチも可能)
+    ```
 
 ## 参考にしたリンク
 - [pythonからのPostgreSQLの動かし方](https://zenn.dev/collabostyle/articles/36e822520182d3)
+
