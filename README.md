@@ -15,7 +15,7 @@
 
 1. 関連ライブラリをインストール  
     ```shell
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 1. `@project-root/.env`に環境変数を置く  
     ```env
